@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- Seguridad: solo se cargan archivos de este mismo sitio (y el chat de Susana). En WordPress esto va como cabecera del servidor (ver GUIA-ELEMENTOR.md). -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://chatbot-susana-aim-tika.ai.studio; form-action 'self'; base-uri 'self'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Servicios · AImátika</title>
+  <meta name="description" content="Brand Design, Performance y Automatización, Marketing y Contenidos y Estrategia Digital. Cuatro frentes conectados para que tu marca crezca.">
+  <link rel="canonical" href="https://www.aimatika.com/servicios.html">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="AImátika">
+  <meta property="og:title" content="Servicios · AImátika">
+  <meta property="og:description" content="Brand Design, Performance y Automatización, Marketing y Contenidos y Estrategia Digital. Cuatro frentes conectados para que tu marca crezca.">
+  <meta property="og:image" content="https://www.aimatika.com/img/compartir.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<!-- ================================================================
+     BLOQUE GLOBAL · Iconos y elementos gráficos de marca
+     Asterisco y destello: elementos del manual de marca.
+     Demás iconos: Phosphor Icons (licencia MIT).
+     En Elementor: pegar una sola vez en la plantilla de Cabecera (widget HTML).
+     ================================================================ -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-asterisco" viewBox="0 0 100 100"><rect x="42" y="2" width="16" height="96"/><rect x="42" y="2" width="16" height="96" transform="rotate(60 50 50)"/><rect x="42" y="2" width="16" height="96" transform="rotate(120 50 50)"/></symbol>
+  <symbol id="i-destello" viewBox="0 0 100 100"><polygon points="50,0 54.02,37.64 79.39,9.55 60.52,42.36 97.55,34.55 63,50 97.55,65.45 60.52,57.64 79.39,90.45 54.02,62.36 50,100 45.98,62.36 20.61,90.45 39.48,57.64 2.45,65.45 37,50 2.45,34.55 39.48,42.36 20.61,9.55 45.98,37.64"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></symbol>
+  <symbol id="i-flecha-diag" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></symbol>
+  <symbol id="i-copiar" viewBox="0 0 256 256"><path d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z"/></symbol>
+  <symbol id="i-cerrar" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></symbol>
+  <symbol id="i-correo" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></symbol>
+  <symbol id="i-telefono" viewBox="0 0 256 256"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"/></symbol>
+  <symbol id="i-ubicacion" viewBox="0 0 256 256"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></symbol>
+  <symbol id="i-ciclo" viewBox="0 0 256 256"><path d="M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h28.69L182.06,73.37a79.56,79.56,0,0,0-56.13-23.43h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27a96,96,0,0,1,135,.79L208,76.69V48a8,8,0,0,1,16,0ZM186.41,183.29a80,80,0,0,1-112.47-.66L59.31,168H88a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V179.31l14.63,14.63A95.43,95.43,0,0,0,130,222.06h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z"/></symbol>
+  <symbol id="i-comillas" viewBox="0 0 256 256"><path d="M100,56H40A16,16,0,0,0,24,72v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,100,56Zm0,80H40V72h60ZM216,56H156a16,16,0,0,0-16,16v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,216,56Zm0,80H156V72h60Z"/></symbol>
+  <symbol id="i-externo" viewBox="0 0 256 256"><path d="M224,104a8,8,0,0,1-16,0V59.32l-66.33,66.34a8,8,0,0,1-11.32-11.32L196.68,48H152a8,8,0,0,1,0-16h64a8,8,0,0,1,8,8Zm-40,24a8,8,0,0,0-8,8v72H48V80h72a8,8,0,0,0,0-16H48A16,16,0,0,0,32,80V208a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V136A8,8,0,0,0,184,128Z"/></symbol>
+</svg>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<div class="sr" id="anuncio" aria-live="polite"></div>
+
+<!-- ================================================================
+     BLOQUE GLOBAL · Menú
+     En Elementor: Theme Builder > Cabecera (aplicar a todo el sitio).
+     ================================================================ -->
+<header class="nav" data-nav>
+  <div class="contenedor nav__in">
+    <a class="logo" href="index.html" aria-label="AImátika, ir al inicio"><span>AI</span><span>MÁTIKA</span></a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="servicios.html" aria-current="page">Servicios</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="trabajo.html">Nuestro trabajo</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <a class="btn btn--accion nav__cta" href="contacto.html#formulario">Solicitar diagnóstico</a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu-movil" id="menu-movil">
+  <nav aria-label="Menú del celular">
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html" aria-current="page">Servicios</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="trabajo.html">Nuestro trabajo</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <div class="menu-movil__acciones">
+    <a class="btn btn--accion" href="contacto.html#formulario">Solicitar diagnóstico <svg class="i-flecha" aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></a>
+    <a class="btn btn--linea" href="https://wa.me/573170402062?text=Hola%20AIm%C3%A1tika%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico." target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg> Escríbenos por WhatsApp</a>
+  </div>
+</div>
+
+<main id="contenido">
+
+  <!-- ================================================================
+       SECCIÓN · Cabecera de página (Línea Aurora)
+       Elementor: Contenedor ancho completo, altura mínima 68vh,
+       fondo = imagen img/aurora-servicios-1776.webp, contenido abajo a la izquierda.
+       ================================================================ -->
+  <section class="cabecera-pagina" aria-labelledby="pagina-titulo">
+    <div class="cabecera-pagina__fondo" aria-hidden="true">
+      <img src="img/aurora-servicios-1776.webp" srcset="img/aurora-servicios-900.webp 900w, img/aurora-servicios-1776.webp 1776w" sizes="100vw" alt="" width="1776" height="896" fetchpriority="high" decoding="async">
+    </div>
+    <svg class="marca-grafica" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><use href="#i-asterisco"/></svg>
+    <div class="contenedor">
+      <h1 class="cabecera-pagina__titulo" id="pagina-titulo"><span data-linea><span>Servicios</span></span></h1>
+      <p class="lead">Cuatro frentes conectados entre sí y enfocados en un mismo objetivo: que tu marca crezca.</p>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       SECCIÓN · Detalle de los 4 servicios
+       Elementor: Contenedor en caja de 2 columnas. Izquierda: imagen fija
+       (posición "sticky"). Derecha: un contenedor por servicio con su ID
+       (brand-design, performance, contenidos, estrategia) para los enlaces.
+       ================================================================ -->
+  <section class="seccion" aria-label="Detalle de servicios">
+    <div class="contenedor detalle">
+      <div class="detalle__visor" data-visor aria-hidden="true">
+        <img src="img/servicio-brand-design-900.webp" alt="" width="900" height="1115" data-servicio="brand-design" class="is-activa" loading="eager" decoding="async">
+        <img src="img/servicio-performance-900.webp" alt="" width="900" height="1115" data-servicio="performance" loading="lazy" decoding="async">
+        <img src="img/servicio-contenidos-900.webp" alt="" width="900" height="1115" data-servicio="contenidos" loading="lazy" decoding="async">
+        <img src="img/servicio-estrategia-900.webp" alt="" width="900" height="1115" data-servicio="estrategia" loading="lazy" decoding="async">
+      </div>
+      <div>
+        <article class="servicio-detalle" id="brand-design" data-servicio-bloque aria-labelledby="t-brand-design">
+          <div class="servicio-detalle__img"><img src="img/servicio-brand-design-900.webp" alt="Formas geométricas de vidrio iluminadas con luz azul" width="900" height="1115" loading="lazy" decoding="async"></div>
+          <h2 id="t-brand-design"><span data-linea><span>Brand Design</span></span></h2>
+          <p class="lead" data-aparecer>Tu marca tiene que verse como lo que es. Creamos una identidad que se reconoce a primera vista y se mantiene igual en todos tus canales.</p>
+          <div class="incluye" data-aparecer>
+            <h3>Qué incluye</h3>
+            <ul><li>Identidad visual</li><li>Manual de marca</li><li>Piezas para redes</li></ul>
+          </div>
+          <div class="acciones" data-aparecer><a class="enlace-flecha" href="contacto.html?servicio=brand-design#formulario">Solicitar diagnóstico <svg aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></a></div>
+        </article>
+        <article class="servicio-detalle" id="performance" data-servicio-bloque aria-labelledby="t-performance">
+          <div class="servicio-detalle__img"><img src="img/servicio-performance-900.webp" alt="Líneas de luz turquesa que se unen en un solo punto" width="900" height="1115" loading="lazy" decoding="async"></div>
+          <h2 id="t-performance"><span data-linea><span>Performance &amp; Automatización</span></span></h2>
+          <p class="lead" data-aparecer>Pauta que se mide y procesos que trabajan solos. Conectamos tus anuncios, formularios y seguimiento para que no se te escape ningún cliente potencial.</p>
+          <div class="incluye" data-aparecer>
+            <h3>Qué incluye</h3>
+            <ul><li>Pauta digital</li><li>Automatizaciones con IA</li><li>Seguimiento de leads (clientes potenciales)</li></ul>
+          </div>
+          <div class="acciones" data-aparecer><a class="enlace-flecha" href="contacto.html?servicio=performance#formulario">Solicitar diagnóstico <svg aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></a></div>
+        </article>
+        <article class="servicio-detalle" id="contenidos" data-servicio-bloque aria-labelledby="t-contenidos">
+          <div class="servicio-detalle__img"><img src="img/servicio-contenidos-900.webp" alt="Capas de vidrio apiladas con bordes de luz azul y morada" width="900" height="1115" loading="lazy" decoding="async"></div>
+          <h2 id="t-contenidos"><span data-linea><span>Marketing &amp; Contenidos</span></span></h2>
+          <p class="lead" data-aparecer>Contenido con un objetivo detrás. Definimos qué publicar, para quién y para qué, y lo producimos para que tu audiencia se quede.</p>
+          <div class="incluye" data-aparecer>
+            <h3>Qué incluye</h3>
+            <ul><li>Estrategia de contenidos</li><li>Redes sociales</li><li>Calendario editorial</li></ul>
+          </div>
+          <div class="acciones" data-aparecer><a class="enlace-flecha" href="contacto.html?servicio=contenidos#formulario">Solicitar diagnóstico <svg aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></a></div>
+        </article>
+        <article class="servicio-detalle" id="estrategia" data-servicio-bloque aria-labelledby="t-estrategia">
+          <div class="servicio-detalle__img"><img src="img/servicio-estrategia-900.webp" alt="Mapa de líneas de luz con un camino que llega a un punto brillante" width="900" height="1115" loading="lazy" decoding="async"></div>
+          <h2 id="t-estrategia"><span data-linea><span>Estrategia Digital</span></span></h2>
+          <p class="lead" data-aparecer>Antes de hacer, entendemos. Revisamos dónde está tu marca hoy y trazamos el camino para crecer, paso a paso.</p>
+          <div class="incluye" data-aparecer>
+            <h3>Qué incluye</h3>
+            <ul><li>Diagnóstico digital</li><li>Buyer persona (a quién le hablas)</li><li>Plan de crecimiento</li></ul>
+          </div>
+          <div class="acciones" data-aparecer><a class="enlace-flecha" href="contacto.html?servicio=estrategia#formulario">Solicitar diagnóstico <svg aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       SECCIÓN · Cinta "Además" (texto en movimiento)
+       Elementor: widget HTML con este bloque completo.
+       ================================================================ -->
+  <div class="cinta" role="region" aria-label="Además: email marketing, CRM, landing pages, analítica y dashboards">
+    <span class="cinta__label" aria-hidden="true">Además</span>
+    <div class="cinta__ventana" aria-hidden="true">
+      <div class="cinta__pista">
+        <ul class="cinta__grupo"><li>Email marketing<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>CRM<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>Landing pages<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>Analítica<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>Dashboards<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li></ul>
+        <ul class="cinta__grupo"><li>Email marketing<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>CRM<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>Landing pages<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>Analítica<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li><li>Dashboards<svg viewBox="0 0 100 100"><use href="#i-asterisco"/></svg></li></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================================
+       SECCIÓN · Proceso (6 pasos)
+       Elementor: Contenedor ancho completo con ID "proceso", fondo Aurora.
+       ================================================================ -->
+  <section class="seccion proceso-sec con-ruido" id="proceso" aria-labelledby="proceso-titulo">
+    <div class="contenedor">
+      <div class="encabezado">
+        <div>
+          <h2 class="titulo" id="proceso-titulo"><span data-linea><span>Cómo trabajamos</span></span></h2>
+          <p class="lead" data-aparecer>Seis pasos, en orden. Cada uno parte de lo que aprendimos en el anterior. <strong>Nada al azar.</strong></p>
+        </div>
+      </div>
+      <ol class="proceso" data-proceso>
+        <li class="paso"><span class="paso__punto" aria-hidden="true"></span><span class="paso__num" aria-hidden="true">01</span><h3>Diagnosticar</h3><p>Revisamos dónde estás hoy: redes, web, pauta y procesos.</p></li>
+        <li class="paso"><span class="paso__punto" aria-hidden="true"></span><span class="paso__num" aria-hidden="true">02</span><h3>Estrategia</h3><p>Definimos objetivos, a quién le hablas y cómo vamos a llegar.</p></li>
+        <li class="paso"><span class="paso__punto" aria-hidden="true"></span><span class="paso__num" aria-hidden="true">03</span><h3>Construir</h3><p>Creamos la marca, el contenido, la web y las automatizaciones.</p></li>
+        <li class="paso"><span class="paso__punto" aria-hidden="true"></span><span class="paso__num" aria-hidden="true">04</span><h3>Activar</h3><p>Salimos al aire: campañas, publicaciones y flujos funcionando.</p></li>
+        <li class="paso"><span class="paso__punto" aria-hidden="true"></span><span class="paso__num" aria-hidden="true">05</span><h3>Medir</h3><p>Miramos los datos para saber qué funciona y qué no.</p></li>
+        <li class="paso"><span class="paso__punto" aria-hidden="true"></span><span class="paso__num" aria-hidden="true">06</span><h3>Optimizar</h3><p>Ajustamos con base en lo que medimos y volvemos a empezar el ciclo.</p></li>
+      </ol>
+      <p class="proceso__ciclo" data-aparecer><svg aria-hidden="true" focusable="false"><use href="#i-ciclo"/></svg> Medir y optimizar es un ciclo, no un final.</p>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       SECCIÓN · Llamado final
+       Elementor: Contenedor ancho completo, fondo img/aurora-contacto-1776.webp
+       ================================================================ -->
+  <section class="llamado" aria-labelledby="llamado-titulo">
+    <div class="llamado__fondo" aria-hidden="true">
+      <img src="img/aurora-contacto-1776.webp" srcset="img/aurora-contacto-900.webp 900w, img/aurora-contacto-1776.webp 1776w" sizes="100vw" alt="" width="1776" height="896" loading="lazy" decoding="async">
+    </div>
+    <div class="contenedor">
+      <h2 class="llamado__titulo" id="llamado-titulo"><span data-linea><span>Cuéntanos dónde está tu marca hoy</span></span></h2>
+      <p class="lead" data-aparecer>Te decimos por dónde empezar.</p>
+      <div class="acciones" data-aparecer>
+        <a class="btn btn--accion btn--grande" href="contacto.html#formulario">Solicitar diagnóstico <svg class="i-flecha" aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></a>
+        <a class="btn btn--linea btn--grande" href="https://wa.me/573170402062?text=Hola%20AIm%C3%A1tika%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico." target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg> Escríbenos por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================================================================
+     BLOQUE GLOBAL · Pie de página
+     En Elementor: Theme Builder > Pie de página (aplicar a todo el sitio).
+     ================================================================ -->
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie__top">
+      <a class="logo logo--grande" href="index.html" aria-label="AImátika, volver al inicio"><span>AI</span><span>MÁTIKA</span></a>
+      <p class="pie__slogan">Hacemos crecer <span class="caja">tu marca</span></p>
+    </div>
+    <div class="pie__medio">
+      <div>
+        <p class="pie__titulo">Páginas</p>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="trabajo.html">Nuestro trabajo</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="pie__titulo">Servicios</p>
+        <ul>
+          <li><a href="servicios.html#brand-design">Brand Design</a></li>
+          <li><a href="servicios.html#performance">Performance &amp; Automatización</a></li>
+          <li><a href="servicios.html#contenidos">Marketing &amp; Contenidos</a></li>
+          <li><a href="servicios.html#estrategia">Estrategia Digital</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="pie__titulo">Contacto</p>
+        <ul>
+          <li><a href="mailto:contacto@aimatika.com">contacto@aimatika.com</a></li>
+          <li><a href="https://wa.me/573170402062?text=Hola%20AIm%C3%A1tika%2C%20quiero%20solicitar%20un%20diagn%C3%B3stico." target="_blank" rel="noopener noreferrer">+57 317 040 2062</a></li>
+          <li>Medellín, Colombia</li>
+        </ul>
+      </div>
+      <div>
+        <p class="pie__titulo">AImátika</p>
+        <p>Marketing Estratégico &amp; IA. Diagnóstico, estrategia y automatización. Nada al azar.</p>
+        <ul class="pie__legal">
+          <li><a href="privacidad.html">Política de tratamiento de datos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pie__base">
+      <span>@AIMATIKA</span>
+      <span class="pie__copy">© <span data-anio>2026</span> AImátika. Todos los derechos reservados.</span>
+      <span>WWW.AIMATIKA.COM</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================================================================
+     BLOQUE GLOBAL · Susana (chat flotante)
+     En Elementor: widget HTML dentro de la plantilla de Pie de página.
+     ================================================================ -->
+<div class="susana" data-susana>
+  <button class="susana__boton" type="button" aria-expanded="false" aria-controls="susana-panel" aria-label="Hablar con Susana, te ayuda a encontrar por dónde empezar">
+    <span class="susana__avatar" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#i-destello"/></svg></span>
+    <span class="susana__texto"><strong>Susana</strong><span>Te ayudo a encontrar por dónde empezar</span></span>
+  </button>
+  <div class="susana__panel" id="susana-panel" role="dialog" aria-label="Chat con Susana">
+    <div class="susana__cabecera">
+      <span class="susana__avatar" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#i-destello"/></svg></span>
+      <div class="susana__info"><strong>Susana</strong><span>Asistente de AImátika</span></div>
+      <a class="icono-btn" href="https://chatbot-susana-aim-tika.ai.studio/?mode=chat" target="_blank" rel="noopener noreferrer" aria-label="Abrir a Susana en una pestaña nueva"><svg aria-hidden="true" focusable="false"><use href="#i-externo"/></svg></a>
+      <button class="icono-btn" type="button" data-cerrar aria-label="Cerrar chat"><svg aria-hidden="true" focusable="false"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="susana__marco">
+      <p class="susana__cargando">Cargando a Susana…</p>
+      <iframe title="Chat con Susana" data-src="https://chatbot-susana-aim-tika.ai.studio/?mode=chat" allow="clipboard-write; microphone" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
